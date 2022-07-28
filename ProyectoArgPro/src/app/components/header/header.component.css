@@ -1,0 +1,10 @@
+.caja {
+    
+    height: 400px;
+    width: 99%;
+    background: linear-gradient(90deg, rgba(88, 129, 218, 0.37),rgb(179, 228, 179));
+    border-radius: 5px; 
+    border:solid;
+    border-color: black;
+    
+}
