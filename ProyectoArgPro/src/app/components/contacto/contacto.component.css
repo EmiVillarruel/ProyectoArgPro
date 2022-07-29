@@ -1,0 +1,15 @@
+
+img {
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+}
+
+.row{
+   padding: 20px;
+   border-bottom: dotted gray;
+}
+
+#contacto{
+    padding-top: 15px;
+}

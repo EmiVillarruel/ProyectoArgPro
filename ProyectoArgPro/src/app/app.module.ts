@@ -6,7 +6,12 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { IlustracionComponent } from './components/ilustracion/ilustracion.component';
 import { PerfilComponent } from './components/perfil/perfil.component';
-import { LogosComponent } from './components/logos/logos.component';
+
+import { AcercaDeMiComponent } from './components/acerca-de-mi/acerca-de-mi.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
+import { DescripcionComponent } from './components/descripcion/descripcion.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +19,12 @@ import { LogosComponent } from './components/logos/logos.component';
     HeaderComponent,
     IlustracionComponent,
     PerfilComponent,
-    LogosComponent
+ 
+    AcercaDeMiComponent,
+    EducacionComponent,
+    DescripcionComponent,
+    ContactoComponent,
+    ExperienciaComponent
   ],
   imports: [
     BrowserModule,
