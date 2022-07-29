@@ -1,8 +1,114 @@
-img {
-
+#ilustracion {
     height: 200px;
-    width: 101%;
+    width: 100%;
     border-bottom: dotted gray;
     
 }
 
+.btn {
+    margin: 10px;
+    width: 100%;
+    border-width: medium;
+    text-size-adjust: true;
+    border-color: cadetblue;
+}
+
+#header {
+    background: linear-gradient(90deg, rgba(235, 201, 90, 0.911),rgb(182, 133, 223));
+    border-bottom: dotted gray;   
+}
+
+#fotoperfil{
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px gray;
+    border: solid;
+    height: 90%;
+    width: 90%;
+}
+
+#perfil {
+    padding: 20px;
+}
+
+#infohead {
+    margin-top: 20px;
+}
+
+
+/* @media (min-width: 581px){
+    #fotoperfil{
+        border-radius: 15px;
+        box-shadow: 3px 3px 3px gray;
+        border: solid;
+        height: 180px;
+        margin: 20px;
+
+        
+
+    }
+}
+@media (max-width: 580px){
+    #fotoperfil{
+        position: absolute;
+        border-radius: 15px;
+        box-shadow: 3px 3px 3px gray;
+        border: solid;
+        height: 250px;
+        width: 80%;
+         
+    }
+}
+
+@media (min-width: 581px){
+    #info{
+        /* position: absolute; */
+        /* display: block;
+        height: 180px;
+        margin: 20px;
+        margin-left: 35px;
+
+        
+
+    }
+}
+
+@media (max-width: 580px){
+    #info{
+        flex-direction: column;
+        position: absolute;
+        display: block;
+        margin: auto;
+        height: 200px;
+        width: 80%;
+        margin-top: 40px;
+        margin-left: 20px;
+        text-align: center;
+        font-size: small;
+      
+
+
+    }
+}
+
+@media (max-width: 580px){
+    #logos{
+        margin: auto;
+        height: 200px;
+        width: 50%;
+
+    }
+}
+@media (min-width: 581px){
+    #logos{
+        float: right;
+        width: 290px;
+        height: 150px;
+       
+        margin-top: 15px;
+        
+        
+        
+
+
+    }
+} */

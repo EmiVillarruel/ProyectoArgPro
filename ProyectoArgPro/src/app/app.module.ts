@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { IlustracionComponent } from './components/ilustracion/ilustracion.component';
-import { PerfilComponent } from './components/perfil/perfil.component';
+
 
 import { AcercaDeMiComponent } from './components/acerca-de-mi/acerca-de-mi.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
@@ -20,7 +20,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     AppComponent,
     HeaderComponent,
     IlustracionComponent,
-    PerfilComponent,
+    
  
     AcercaDeMiComponent,
     EducacionComponent,
