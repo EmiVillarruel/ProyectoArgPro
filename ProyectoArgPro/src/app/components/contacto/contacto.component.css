@@ -10,6 +10,10 @@ img {
    border-bottom: dotted gray;
 }
 
-#contacto{
+#logos{
     padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
