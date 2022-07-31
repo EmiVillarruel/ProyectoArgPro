@@ -36,7 +36,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author EMILIO
  */
 @RestController
-@RequestMapping
+@RequestMapping("/auth")
 public class AuthController {
     @Autowired
     PasswordEncoder passwordEncoder;
