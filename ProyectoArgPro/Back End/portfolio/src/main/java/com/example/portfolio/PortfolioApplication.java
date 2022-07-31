@@ -1,7 +1,4 @@
-package//<editor-fold defaultstate="collapsed" desc="comment">
-        
-//</editor-fold>
-com.proyectoArgPro.portfolio;
+package com.example.portfolio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
