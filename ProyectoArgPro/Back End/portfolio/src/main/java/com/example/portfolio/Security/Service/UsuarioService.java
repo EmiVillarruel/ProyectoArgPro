@@ -11,16 +11,18 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+
 /**
  *
  * @author EMILIO
  */
 @Service
 @Transactional
+
 public class UsuarioService {
     @Autowired
      iUsuarioRepository iusuarioRepository;
-    
+   
     public Optional<Usuario> getByNombreUsuario(String nombreUsuario){
     return iusuarioRepository.findByNombreUsuario(nombreUsuario);
     }
